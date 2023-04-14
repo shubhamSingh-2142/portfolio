@@ -1,0 +1,510 @@
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blue-icon{
+    background-color: #2D3092;   
+}
+.blue-icon a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .9em;
+}
+.mail,
+.call{
+    color: #9D9EA0;
+    text-decoration: none;
+}
+.logs{
+    margin-right: 12%;
+    padding-right: 3%;
+}
+.logs a{
+    /* font-size: 1.1em; */
+    text-decoration: none;
+    color: black;
+}
+.log-in, 
+.register{
+    color: blue;
+}
+.burger{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #3498DB;
+    padding-top: 7px;
+}
+.main-desk-nav{
+    position: sticky;
+    top: 0;
+}
+.desk-logo{
+    background-color: #F4F4F4;
+}
+.desk-nav li{
+    margin-right: 10%;
+    list-style-type: none;
+}
+.desk-nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+.search-bars{
+    margin-right: 15%;
+}
+.search input,
+.search span{
+    border-radius:25px ;
+}
+.search span {
+    background-color: #2D3092;
+}
+.mobile-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2D3092;
+}
+.edu{
+    color: #2D3092;
+}
+.banner{
+    background-color: #BCDDFF;
+}
+.banner-text h6{
+    color: #2D3092;
+    text-transform: capitalize;
+    margin-bottom: 10%;
+}
+.banner-text h3{
+    font-size: 4em;
+    text-transform: capitalize;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+.banner-text a{
+    padding: 2% 5%;
+    color: white;
+    background-color: #2D3092;
+}
+.banner-text{
+    margin-top: 9%;
+    margin-left: 7%;
+}
+.banner img{
+    margin-right: 8%;
+}
+.popular-online{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.popular-online h6{
+     color: #BCDDFF;
+     margin-bottom: 3%;
+}
+.popular-online h4{
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.categori{
+    margin-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: 1s;
+}
+.categori:hover{
+    color: #fff;
+    background-color: #2D3092;
+}
+.categori i{
+    font-size: 2.8em;
+    /* color: #2D3092; */
+    padding-bottom: 10%;
+}
+
+.categori h5{
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.categori p{
+    padding-bottom: 10%;
+    font-weight: 300;
+}
+.categori a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+button{
+    margin-top: 50px;
+    width:160px;
+    height:60px;
+    background:#2D3092;
+    border:2px solid #000;
+    Color:#fff;
+    transition: 0.6s;
+    position:relative;
+}
+button .span{
+    width:0%;
+    height:100%;
+    background:#0e7ae7;
+    display:flex;
+    position:absolute;
+    top:0px;
+    left:0px;
+    transition: 1s;
+}
+button:hover .span{
+    width:100%;
+}
+button:hover .text{
+    color:#fff;
+}
+.text{
+    position:relative;
+    z-index: 1;
+}
+.topics{
+    padding:7% ;
+    background-image: url(https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/section_bg01.png.webp);
+    background-repeat: no-repeat
+}
+.topic-1 h5,
+.topic-1 span{
+    color: #1e9d78;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.topic-2 h5,
+.topic-2 span{
+    color: #2D3092;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.topic-3 h5,
+.topic-3 span{
+    color: #5DB44D;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.topic-4 h5,
+.topic-4 span{
+    color: #F05510;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.week{
+    padding: 7%;
+}
+.week h6{
+    color: #0e7ae7;
+    text-transform: capitalize;
+    padding-bottom: 2%;
+}
+.week h4{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+.people-img{
+    transition: 0.5s;
+}
+.people-img:hover{
+    transform: scale(1.1);
+}
+.week-head{
+    margin-top: 10%;
+    font-size: 1.8em;
+    color: #2D3092; 
+    margin-bottom: 5%;
+}
+.star{
+    float: left;
+    color: #FBBA42;
+}
+.review{
+    float: right;
+    font-weight: 200;
+}
+.free{
+    float: right;
+    font-weight: 200;
+}
+.week-user{
+    float: left;
+}
+.fac-1{
+    color: #0e7ae7;
+    font-size: 1em;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.fac-2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+.faculty{
+    background: url(https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/section_bg02.png.webp);
+    background-position-x: 50%;
+    background-position-y: 20%;
+    padding-bottom: 10%;
+}
+.teachers h5{
+    padding-top: 8%;
+    font-size: 1.5em;
+}
+.teachers h5:hover{
+    color: #2D3092;
+}
+.teachers h6{
+    font-weight: 400;
+    padding: 4% 0px 10% 0px;
+}
+
+.view-all{
+    margin-top: 50px;
+    width:160px;
+    height:60px;
+    background:#fff;
+    border:2px solid #000;
+    transition: 0.6s;
+    color: black;
+    position:relative;
+}
+.view-all .span{
+    width:0%;
+    height:100%;
+    background:#0e7ae7;
+    display:flex;
+    position:absolute;
+    top:0px;
+    left:0px;
+    transition: 1s;
+}
+.view-all:hover .span{
+    width:100%;
+}
+.view-all:hover .text{
+    color:black;
+}
+.about-company{
+    padding-top: 10%;
+}
+.about-text{
+    padding-left: 10%;
+}
+.about-company h6{
+    color: #0e7ae7;
+    text-transform: capitalize;
+}
+.about-text h3{
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 3em;
+}
+.about-text p{
+    padding-top: 4%;
+    font-weight: 400;
+    width: 90%;
+}
+.bulb{
+    padding-top:6% ;
+}
+.bulb h6 span{
+    color: #2D3092;
+    font-size: 1.8em;
+}
+.bulb h6{
+    padding-bottom: 2%;
+    color: #000;
+}
+.more-about{
+    margin-top: 8%;
+    padding: 2% 5%;
+    background-color: #2D3092;
+    color: #fff;
+}
+.about-img-1 img{
+    transition: 1s;
+}
+.about-img-1 img:hover{
+    transform: translateY(40px);
+}
+.about-img-2 img{
+    margin-top: 25%;
+    transition: 1s;
+}
+.about-img-2 img:hover{
+    transform:translateY(-40px)
+}
+.quote{
+    background-image: url(https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/section_bg03.png.webp);
+    padding: 7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.quote p{
+    color: white;
+    font-size: 1.5em;
+    padding: 3% 25%;
+}
+.rating{
+    color: #FBBA42;
+}
+.quote h5{
+    color: white;
+    padding-top: 3%;
+}
+.quote h5 span{
+    font-size: .7em;
+}
+.blog{
+    margin-bottom: 7%;
+}
+.blog h5{
+    color: #0e7ae7;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.blog h3{
+    text-align: center;
+    padding-bottom:3%;
+    font-size: 2.5em;
+}
+.nov-1 h6{
+    position: relative;
+    bottom: 10vh;
+    left: 50px;
+    text-align: center;
+    height: 75px;
+    width: 85px;
+    color: #fff;
+    font-size: 1.5em;
+    background-color:#2D3092;
+}
+.properties{
+    margin-top: -7%;
+    margin-left: 7%;
+}
+.properties h6{
+    font-size: 1.1em;
+    color: #2D3092;
+}
+.footprint{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+}
+.read{
+    text-decoration: none;
+    color: #000;
+    font-size: .9em;
+    text-transform: uppercase;
+    padding: 7% 0;
+}
+footer{
+    background-color: #0B0B1D;
+    padding: 7% 0 2% 0;
+}
+.stay-update h5{
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+.stay-update{
+    padding: 0 5%;
+}
+.sub-btn{
+    background-color: #2D3092;
+}
+.sub-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.get-social h5{
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 8vh;
+    border-radius: 20px;
+}
+.fb a{
+    font-size: 1.3em;
+    color: white;
+}
+.iconc-1{
+    background-color: #3B5998;
+}
+.iconc-2{
+    background-color: #3498DB;
+}
+.iconc-3{
+    background-color: #DD4B39;
+}
+.iconc-4{
+    background-color: #BB1500;
+}
+.iconc-5{
+    background-color: #2D3092;
+}
+.foot-menu h5{
+    color: white;
+    text-transform: capitalize;
+}
+.foot-menu ul{
+    padding-left: 0px;
+}
+.foot-menu ul li{
+    list-style-type: none;
+}
+.foot-menu ul li a{
+    text-decoration: none;
+    color: #9D9EA0;
+    line-height: 2.5em;
+    text-transform: capitalize;
+}
+.foot-menu ul li a:hover{
+    color: #fff;
+}
+hr{
+    margin: 3% 10%;
+    color: white;
+}    
+.copy{
+    text-align: center;
+    color: #9D9EA0;
+}
+.shubham{
+    color: gold;
+}
+
+
+@media(min-width:320px){
+    .banner{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+@media(min-width:768px){
+    .logs{
+        margin-right: 10px;
+    }
+    .banner{
+        flex-wrap: nowrap;
+    }
+}

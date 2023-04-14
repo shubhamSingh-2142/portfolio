@@ -1,0 +1,1569 @@
+                    @charset "utf-8";
+                    * {
+                        margin: 0 auto;
+                        font-family: sans-serif;
+                    }
+                    
+                    header {
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/background/hero_2.jpg");
+                        
+                        background-size: 100% 100%;
+                    }
+                    
+                    .desktop-view {
+                        display: none;
+                    }
+                    .wrapper h1{
+                        font-size: 2em;
+                    }
+                    .wrapper p{
+                        color: white;
+                        font-size: 1.2em;
+                        font-weight: lighter;
+                    }
+                    .mobile-nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .mobile-nav a {
+                        text-decoration: none;
+                    }
+                    
+                    .mobile-nav a h2 {
+                        height: 60px;
+                        font-size: 2em;
+                        color: #fff;
+                        margin-top: 20px;
+                        padding-right: 90px;
+                    }
+                    
+                    .mobile-nav a h2 span {
+                        color: blue;
+                    }
+                    
+                    .menu {
+                        font-size: 1.5em;
+                        margin-top: 8px;
+                        color: #fff;
+                    }
+                    
+                    header hr {
+                        color: white;
+                    }
+                    
+                    header h1 {
+                        font-size: 2em;
+                        text-align: center;
+                        color: #fff;
+                        margin-top: 50px;
+                        text-transform: uppercase;
+                        letter-spacing: .1em;
+                    }
+                    
+                    header p {
+                        width: 100%;
+                        margin-top: 40px;
+                        font-size: 1.5em;
+                        line-height: 30px;
+                        color: black;
+                        text-align: center;
+                        font-weight: lighter;
+                        margin-bottom: 50px;
+                    }
+                    
+                    .touch {
+                        display: block;
+                        font-size: 1.em;
+                        background-color: #007BFF;
+                        text-decoration: none;
+                        color: white;
+                        border: 1px solid #007BFF;
+                        border-radius: 30px;
+                        text-align: center;
+                        width: 150px;
+                        height: 30px;
+                        padding-top: 17px;
+                    }
+                    
+                    .down-btn {
+                        display: block;
+                        font-size: 1.5em;
+                        color: #fff;
+                        text-align: center;
+                        margin-top: 80px;
+                    }
+                    
+                    .about {
+                        width: 100%;
+                        height: 200px;
+                    }
+                    
+                    .about h2 {
+                        color: skyblue;
+                        font-size: 1.9em;
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+                    
+                    .about p {
+                        font-size: 1.2em;
+                        padding: 20px;
+                        text-align: center;
+                        line-height: 2em;
+                        font-weight: lighter;
+                    }
+                    
+                    .img-content img {
+                        width: 100%;
+                        margin-top: 80px;
+                    }
+                    
+                    .text-content h2 {
+                        font-size: 1.7em;
+                        padding: 40px 30px 20px 10px;
+                        font-weight: lighter;
+                    }
+                    
+                    .para-1,
+                    .para-2 {
+                        padding: 10px;
+                        line-height: 1.7em;
+                        font-weight: lighter;
+                    }
+                    
+                    .para-2 {
+                        margin-bottom: 100px;
+                    }
+                    
+                    .money-saving {
+                        text-align: center;
+                    }
+                    
+                    .money-saving img {
+                        width: 70px;
+                        height: 70px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .money-saving h3 {
+                        font-size: 1.5em;
+                        font-weight: lighter;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .money-saving p {
+                        font-weight: lighter;
+                        font-size: .9em;
+                        letter-spacing: .1em;
+                        line-height: 1.5em;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .online-shopping {
+                        text-align: center;
+                    }
+                    
+                    .online-shopping img {
+                        width: 70px;
+                        height: 70px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .online-shopping h3 {
+                        font-size: 1.5em;
+                        font-weight: lighter;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .online-shopping p {
+                        font-weight: lighter;
+                        font-size: .9em;
+                        letter-spacing: .1em;
+                        line-height: 1.5em;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .credit-debit {
+                        text-align: center;
+                    }
+                    
+                    .credit-debit img {
+                        width: 70px;
+                        height: 70px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .credit-debit h3 {
+                        font-size: 1.5em;
+                        font-weight: lighter;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .credit-debit p {
+                        font-weight: lighter;
+                        font-size: .9em;
+                        letter-spacing: .1em;
+                        line-height: 1.5em;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .img2-content img {
+                        width: 100%;
+                    }
+                    
+                    .text2-content h2 {
+                        font-size: 1.8em;
+                        font-weight: lighter;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        padding: 20px;
+                    }
+                    
+                    .text2-content p {
+                        font-size: 1.1em;
+                        padding: 10px;
+                        letter-spacing: .1em;
+                        font-weight: lighter;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .text2-content ul li {
+                        text-decoration: none;
+                        list-style-type: none;
+                        font-size: 1.1em;
+                    }
+                    
+                    .fa-check {
+                        color: springgreen;
+                        margin-right: 20px;
+                        margin-left: -20px;
+                    }
+                    
+                    .text2-content ul li:first-child {
+                        margin-bottom: 12px;
+                    }
+                    
+                    .text2-content ul li:last-child {
+                        margin-top: 12px;
+                    }
+                    
+                    .meet-team {
+                        text-align: center;
+                    }
+                    
+                    .meet-team h2 {
+                        color: steelblue;
+                        margin-top: 130px;
+                        font-size: 1.7em;
+                        letter-spacing: .5px;
+                    }
+                    
+                    .meet-team p {
+                        padding: 15px;
+                        font-size: 1.3em;
+                        line-height: 1.5em;
+                        font-weight: lighter;
+                        margin-bottom: 3 0px;
+                    }
+                    
+                    .person-1 img,
+                    .person-2 img,
+                    .person-3 img {
+                        width: 100%;
+                        height: 300px;
+                    }
+                    
+                    .person-1 h5,
+                    .person-2 h5,
+                    .person-3 h5 {
+                        text-align: left;
+                        font-size: 1.2em;
+                        margin: 10px 0 10px 15px;
+                    }
+                    
+                    .person-1 h6,
+                    .person-2 h6,
+                    .person-3 h6 {
+                        text-align: left;
+                        margin: 10px 0 30px 15px;
+                        letter-spacing: .1em;
+                    }
+                    
+                    .gallery-img-1,
+                    .gallery-img-2,
+                    .gallery-img-3 {
+                        text-align: center;
+                    }
+                    
+                    .gallery-img-1 img,
+                    .gallery-img-2 img,
+                    .gallery-img-3 img {
+                        width: 90%;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .how-works {
+                        text-align: center;
+                    }
+                    
+                    .how-works h1 {
+                        font-size: 2em;
+                        margin-top: 50px;
+                        color: rgb(6, 100, 240);
+                    }
+                    
+                    .how-works p {
+                        margin-top: 20px;
+                        font-size: 1.3em;
+                        line-height: 1.8em;
+                        padding: 10px;
+                    }
+                    
+                    .how-img img {
+                        width: 90%;
+                        padding: 10px;
+                        margin-top: 20px;
+                    }
+                    
+                    .how-text h1 {
+                        font-size: 2.2em;
+                        text-align: left;
+                        margin-left: 15px;
+                    }
+                    
+                    .how-text p {
+                        font-size: 1.2em;
+                        text-align: left;
+                        letter-spacing: normal;
+                        line-height: 1.5em;
+                    }
+                    
+                    .how-text a {
+                        display: block;
+                        text-decoration: none;
+                        color: white;
+                        background-color: steelblue;
+                        margin-top: 50px;
+                        margin-left: 10px;
+                        padding: 20px;
+                        border-radius: 30px;
+                        letter-spacing: .1em;
+                        width: 120px;
+                    }
+                    
+                    .our-services {
+                        background-color: #f1eeee;
+                    }
+                    
+                    .our-services h2 {
+                        font-size: 2em;
+                        margin-top: 50px;
+                        padding-top: 20px;
+                        color: steelblue;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .service-business img,
+                    .service-credit img,
+                    .service-income img,
+                    .service-insurance img,
+                    .service-finance img,
+                    .service-mgt img {
+                        width: 80px;
+                        height: 80px;
+                        margin-left: 20px;
+                        margin-top: 35px;
+                    }
+                    
+                    .service-business h3,
+                    .service-credit h3,
+                    .service-income h3,
+                    .service-insurance h3,
+                    .service-finance h3,
+                    .service-mgt h3 {
+                        font-size: 1.3em;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        font-weight: lighter;
+                        letter-spacing: .05em;
+                    }
+                    
+                    .service-business p,
+                    .service-credit p,
+                    .service-income p,
+                    .service-insurance p,
+                    .service-finance p,
+                    .service-mgt p {
+                        margin: 20px 0px 20px 20px;
+                        font-size: 1.2em;
+                        line-height: 1.5em;
+                        font-weight: lighter;
+                    }
+                    
+                    .service-business a,
+                    .service-credit a,
+                    .service-income a,
+                    .service-insurance a,
+                    .service-finance a,
+                    .service-mgt a {
+                        text-decoration: none;
+                        margin-left: 20px;
+                        margin-bottom: 50px;
+                        font-size: 1.2em;
+                        color: steelblue;
+                    }
+                    
+                    .quotes h1 {
+                        color: steelblue;
+                        font-size: 1.8em;
+                        text-align: center;
+                        margin-top: 50px;
+                        margin-bottom: 50px;
+                    }
+                    
+                    .quotes blockquote {
+                        font-size: 1.2em;
+                        font-weight: lighter;
+                        letter-spacing: .1em;
+                        padding-left: 1em;
+                        padding-right: 1em;
+                        line-height: 1.5em;
+                    }
+                    
+                    .quotes i {
+                        font-size: 1em;
+                        margin-left: 1em;
+                    }
+                    
+                    .author-img {
+                        display: flex;
+                        padding-top: 50px;
+                        text-align: center;
+                        padding-bottom: 50px;
+                        margin-left: 100px;
+                    }
+                    
+                    .author-img img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                    }
+                    
+                    .author-img p {
+                        margin-top: 15px;
+                        padding-right: 80px;
+                    }
+                    
+                    .pricing {
+                        background-color: rgb(247, 243, 243);
+                        width: 100%;
+                        height: 1900px;
+                    }
+                    
+                    .pricing h2 {
+                        text-align: center;
+                        font-size: 1.8em;
+                        height: 80px;
+                        color: steelblue;
+                        padding-top: 42px;
+                    }
+                    
+                    .subprice {
+                        width: 90%;
+                        height: 550px;
+                        padding: 5px;
+                        background-color: white;
+                        text-align: center;
+                        box-shadow: 0px 0px 8px 4px #888888;
+                    }
+                    
+                    .subprice h3 {
+                        font-size: 1.8em;
+                        font-weight: lighter;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                    }
+                    
+                    .subprice h4 {
+                        display: inline-block;
+                        font-size: 3em;
+                        color: steelblue;
+                    }
+                    
+                    .subprice h5 {
+                        display: inline-block;
+                        font-size: .9em;
+                        font-weight: lighter;
+                        color: gray;
+                    }
+                    
+                    .subprice ul li {
+                        text-align: left;
+                        list-style-type: none;
+                        font-size: 1.2em;
+                        margin-top: 20px;
+                    }
+                    
+                    .buy-now {
+                        margin-top: 50px;
+                        text-align: center;
+                        font-size: 1em;
+                        color: whitesmoke;
+                        background-color: rgb(77, 74, 74);
+                        border-radius: 20px;
+                        height: 40px;
+                        width: 150px;
+                    }
+                    
+                    .subprice-1 {
+                        width: 90%;
+                        height: 550px;
+                        padding: 5px;
+                        background-color: white;
+                        text-align: center;
+                        margin-top: 40px;
+                        box-shadow: 0px 0px 8px 4px #888888;
+                    }
+                    
+                    .subprice-1 h3 {
+                        font-size: 1.8em;
+                        font-weight: lighter;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                    }
+                    
+                    .subprice-1 h4 {
+                        display: inline-block;
+                        font-size: 3em;
+                        color: steelblue;
+                    }
+                    
+                    .subprice-1 h5 {
+                        display: inline-block;
+                        font-size: .9em;
+                        font-weight: lighter;
+                        color: gray;
+                    }
+                    
+                    .subprice-1 ul li {
+                        text-align: left;
+                        list-style-type: none;
+                        font-size: 1.2em;
+                        margin-top: 20px;
+                    }
+                    
+                    .subprice-2 {
+                        width: 90%;
+                        height: 550px;
+                        padding: 5px;
+                        background-color: white;
+                        text-align: center;
+                        margin-top: 40px;
+                        box-shadow: 0px 0px 8px 4px #888888;
+                    }
+                    
+                    .subprice-2 h3 {
+                        font-size: 1.8em;
+                        font-weight: lighter;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                    }
+                    
+                    .subprice-2 h4 {
+                        display: inline-block;
+                        font-size: 3em;
+                        color: steelblue;
+                    }
+                    
+                    .subprice-2 h5 {
+                        display: inline-block;
+                        font-size: .9em;
+                        font-weight: lighter;
+                        color: gray;
+                    }
+                    
+                    .subprice-2 ul li {
+                        text-align: left;
+                        list-style-type: none;
+                        font-size: 1.2em;
+                        margin-top: 20px;
+                    }
+                    
+                    .qanda {
+                        padding: 20px;
+                        background-color: rgb(236, 236, 236);
+                    }
+                    
+                    .qanda h1 {
+                        font-size: 2em;
+                        text-align: center;
+                        color: steelblue;
+                        padding-top: 50px;
+                        padding-bottom: 80px;
+                    }
+                    
+                    .qanda h2 {
+                        font-weight: lighter;
+                        font-size: 1.6em;
+                        letter-spacing: .1em;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .qanda p {
+                        font-weight: lighter;
+                        font-size: 1.2em;
+                        line-height: 1.5em;
+                        margin-bottom: 40px;
+                    }
+                    
+                    .img-4 img {
+                        width: 95%;
+                        padding: 10px;
+                    }
+                    
+                    .bank-loan {
+                        display: flex;
+                        margin-top: 30px;
+                    }
+                    
+                    .bank-icon img {
+                        width: 70px;
+                        height: 70px;
+                        margin-top: 20px;
+                        padding-left: 10px;
+                    }
+                    
+                    .bank-txt {
+                        padding: 20px;
+                    }
+                    
+                    .bank-txt h4 {
+                        font-size: 1.7em;
+                        font-weight: lighter;
+                    }
+                    
+                    .bank-txt p {
+                        font-size: 1.3em;
+                        margin-top: 10px;
+                        line-height: 2em;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .bank-txt a {
+                        font-size: 1.2em;
+                        text-decoration: none;
+                    }
+                    
+                    .bank-cons {
+                        display: flex;
+                        margin-top: 30px;
+                    }
+                    
+                    .bank-cons-icon img {
+                        width: 70px;
+                        height: 70px;
+                        margin-top: 20px;
+                        padding-left: 10px;
+                    }
+                    
+                    .bank-cons-txt {
+                        padding: 20px;
+                    }
+                    
+                    .bank-cons-txt h4 {
+                        font-size: 1.7em;
+                        font-weight: lighter;
+                    }
+                    
+                    .bank-cons-txt p {
+                        font-size: 1.3em;
+                        margin-top: 10px;
+                        line-height: 2em;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .bank-cons-txt a {
+                        font-size: 1.2em;
+                        text-decoration: none;
+                    }
+                    
+                    .blogging h1 {
+                        text-align: center;
+                        margin-top: 50px;
+                        font-size: 2em;
+                        color: steelblue;
+                    }
+                    
+                    .our-blog-1 img {
+                        width: 90%;
+                        padding: 10px;
+                        margin-top: 20px;
+                    }
+                    
+                    .our-blog-1 h2 {
+                        font-size: 1.3em;
+                        padding: 5px;
+                        margin-left: 10px;
+                        margin-top: 20px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-1 {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .blog-1 h6 {
+                        font-size: .9em;
+                        margin-top: 4px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-1 a {
+                        padding-top: px;
+                        text-decoration: none;
+                    }
+                    
+                    .our-blog-1 p {
+                        padding: 20px;
+                        line-height: 1.7em;
+                        font-size: 1em;
+                    }
+                    
+                    .our-blog-1 a {
+                        font-size: 1.1em;
+                        text-decoration: none;
+                        color: steelblue;
+                        margin-left: 20px;
+                    }
+                    
+                    .our-blog-2 img {
+                        width: 90%;
+                        padding: 10px;
+                        margin-top: 20px;
+                    }
+                    
+                    .our-blog-2 h2 {
+                        font-size: 1.3em;
+                        padding: 5px;
+                        margin-left: 10px;
+                        margin-top: 20px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-2 {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .blog-2 h6 {
+                        font-size: .9em;
+                        margin-top: 4px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-2 a {
+                        padding-top: px;
+                        text-decoration: none;
+                    }
+                    
+                    .our-blog-2 p {
+                        padding: 20px;
+                        line-height: 1.7em;
+                        font-size: 1em;
+                    }
+                    
+                    .our-blog-2 a {
+                        font-size: 1.1em;
+                        text-decoration: none;
+                        color: steelblue;
+                        margin-left: 20px;
+                    }
+                    
+                    .our-blog-3 img {
+                        width: 90%;
+                        padding: 10px;
+                        margin-top: 20px;
+                    }
+                    
+                    .our-blog-3 h2 {
+                        font-size: 1.3em;
+                        padding: 5px;
+                        margin-left: 10px;
+                        margin-top: 20px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-3 {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .blog-3 h6 {
+                        font-size: .9em;
+                        margin-top: 4px;
+                        font-weight: lighter;
+                    }
+                    
+                    .blog-3 a {
+                        padding-top: px;
+                        text-decoration: none;
+                    }
+                    
+                    .our-blog-3 p {
+                        padding: 20px;
+                        line-height: 1.7em;
+                        font-size: 1em;
+                    }
+                    
+                    .our-blog-3 a {
+                        font-size: 1.1em;
+                        text-decoration: none;
+                        color: steelblue;
+                        margin-left: 20px;
+                    }
+                    
+                    .contact-us {
+                        width: 100%;
+                        background-color: rgb(236, 236, 236);
+                        height: 1300px;
+                    }
+                    
+                    .contact-us h1 {
+                        font-size: 2em;
+                        margin-top: 50px;
+                        text-align: center;
+                        color: steelblue;
+                        padding-top: 20px;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .location,
+                    .call,
+                    .email {
+                        text-align: center;
+                        padding: 20px;
+                    }
+                    
+                    .location i,
+                    .call i,
+                    .email i {
+                        font-size: 2em;
+                        text-align: center;
+                        color: rgb(66, 53, 243);
+                        margin-bottom: 40px;
+                    }
+                    
+                    .contact-form {
+                        width: 90%;
+                        background-color: white;
+                        padding: 5px;
+                    }
+                    
+                    .contact-form h2 {
+                        text-align: center;
+                        margin-top: 50px;
+                        font-size: 1.5em;
+                        font-weight: lighter;
+                    }
+                    
+                    .fname h5,
+                    .lname h5,
+                    .email-id h5,
+                    .subject h5,
+                    .msg h5 {
+                        font-size: 1em;
+                        letter-spacing: .1em;
+                        margin-left: 30px;
+                        margin: 30px 0 20px 60px;
+                        font-weight: lighter;
+                    }
+                    
+                    .ftext,
+                    .ltext,
+                    .eid,
+                    .sub {
+                        margin-left: 60px;
+                        width: 170px;
+                        height: 30px;
+                        border-radius: 20px;
+                    }
+                    
+                    .txtarea {
+                        height: 120px;
+                        width: 170px;
+                        margin-left: 60px;
+                        border-radius: 20px;
+                    }
+                    
+                    .send-btn {
+                        width: 200px;
+                        height: 50px;
+                        font-size: 1em;
+                        border: 1px solid steelblue;
+                        margin: 50px 50px 30px;
+                        color: whitesmoke;
+                        background-color: steelblue;
+                        border-radius: 30px;
+                    }
+                    
+                    footer {
+                        background-color: rgb(43, 44, 44);
+                    }
+                    
+                    .footer-about h4 {
+                        font-weight: lighter;
+                        color: white;
+                        padding-top: 50px;
+                        margin-left: 10px;
+                    }
+                    
+                    .footer-about p {
+                        font-size: 1em;
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        line-height: 1.5em;
+                        color: whitesmoke;
+                        letter-spacing: .1em;
+                    }
+                    
+                    .footer-quick-link h4 {
+                        font-weight: lighter;
+                        color: white;
+                        padding-top: 40px;
+                        margin-left: 10px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .footer-quick-link ul li {
+                        margin-bottom: 20px;
+                        list-style: none;
+                        color: white;
+                        margin-left: -25px;
+                    }
+                    
+                    .footer-quick-link ul li a {
+                        color: white;
+                        font-size: 1em;
+                    }
+                    
+                    .follow-us h5 {
+                        font-weight: lighter;
+                        color: white;
+                        font-size: 1em;
+                        padding-top: 10px;
+                        margin-left: 15px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .follow-us a {
+                        font-size: 1.5em;
+                        margin-left: 15px;
+                    }
+                    
+                    .sub-news h5 {
+                        font-weight: lighter;
+                        color: white;
+                        font-size: 1em;
+                        padding-top: 10px;
+                        margin-left: 15px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .sub-form input {
+                        width: 175px;
+                        height: 40px;
+                        margin-left: 20px;
+                        border-top-left-radius: 20px;
+                        border-bottom-left-radius: 20px;
+                        margin-bottom: 50px;
+                    }
+                    
+                    .sub-form button {
+                        width: 80px;
+                        height: 46px;
+                        margin-left: -5px;
+                        border-top-right-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                    }
+                    
+                    hr {
+                        color: whitesmoke;
+                    }
+                    
+                    footer p {
+                        color: whitesmoke;
+                        margin-top: 30px;
+                        padding-bottom: 50px;
+                        font-weight: lighter;
+                        margin-left: 20px;
+                    }
+                    
+                    @media(min-width: 768px) {
+                        .mobile-nav a h2 {
+                            font-size: 2.5em;
+                            margin-left: -50px;
+                        }
+                        .menu {
+                            padding-left: 200px;
+                            font-size: 2em;
+                        }
+                        header h1 {
+                            margin-top: 80px;
+                        }
+                        header p {
+                            width: 700px;
+                        }
+                        .about {
+                            margin-top: 100px;
+                        }
+                        .about p {
+                            width: 400px;
+                        }
+                        .img-content img {
+                            width: 90%;
+                            padding: 40px;
+                        }
+                        .text-content {
+                            width: 90%;
+                        }
+                        .ms {
+                            display: flex;
+                        }
+                        .money-saving p,
+                        .online-shopping p,
+                        .credit-debit p {
+                            line-height: 2em;
+                        }
+                        .img2-content img {
+                            width: 90%;
+                            padding: 40px;
+                        }
+                        .text2-content {
+                            margin-top: -20px;
+                            margin-left: 20px;
+                        }
+                        .meet-team p {
+                            width: 450px;
+                            margin-bottom: 20px;
+                        }
+                        .meet-flex {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .gallery h2 {
+                            font-size: 2em;
+                            color: slateblue;
+                            text-align: center;
+                            margin-top: 20px;
+                            margin-bottom: 50px;
+                        }
+                        .gallery-img-1 {
+                            display: flex;
+                        }
+                        .gallery-img-1 img {
+                            margin-right: 5px;
+                            height: 150px;
+                        }
+                        .gallery-img-2 {
+                            display: flex;
+                            margin-top: 20px;
+                        }
+                        .gallery-img-2 img {
+                            margin-right: 5px;
+                            height: 150px;
+                        }
+                        .gallery-img-3 {
+                            display: flex;
+                            margin-top: 20px;
+                        }
+                        .gallery-img-3 img {
+                            margin-right: 5px;
+                            height: 150px;
+                        }
+                        .how-works {
+                            margin-top: 150px;
+                        }
+                        .how-works p {
+                            width: 400px;
+                            margin-bottom: 40px;
+                        }
+                        .how-text p {
+                            width: 600px;
+                            margin-left: 10px;
+                        }
+                        .how-text a {
+                            margin-top: -10px;
+                        }
+                        .service-business,
+                        .service-credit,
+                        .service-income,
+                        .service-insurance,
+                        .service-finance,
+                        .service-mgt {
+                            display: inline-block;
+                            width: 49%;
+                            margin-bottom: 20px;
+                        }
+                        .quotes blockquote q {
+                            text-align: justify;
+                        }
+                        .quotes {
+                            height: 500px;
+                        }
+                        .quotes h1 {
+                            margin-top: 200px;
+                        }
+                        .author-img p {
+                            text-align: center;
+                            margin-left: -210px;
+                        }
+                        .pricing {
+                            align-items: center;
+                            height: 1500px;
+                        }
+                        .subprice {
+                            width: 40%;
+                            margin-left: 40px;
+                            display: inline-block;
+                        }
+                        .subprice-1 {
+                            width: 40%;
+                            margin-left: 50px;
+                            display: inline-block;
+                        }
+                        .subprice-2 {
+                            width: 40%;
+                        }
+                        .blogging {
+                            margin-top: 150px;
+                            align-items: center;
+                        }
+                        .blogging h1 {
+                            margin-bottom: 50px;
+                        }
+                        .our-blog-1 {
+                            width: 43%;
+                            display: inline-block;
+                            margin-left: 60px;
+                        }
+                        .our-blog-2 {
+                            width: 43%;
+                            display: inline-block;
+                        }
+                        .our-blog-3 {
+                            width: 43%;
+                            margin-top: 50px;
+                        }
+                        .contact-us h1 {
+                            padding-top: 80px;
+                        }
+                        .contact-us {
+                            height: 1200px;
+                        }
+                        .cont-flex {
+                            display: flex;
+                            padding-bottom: 50px;
+                        }
+                        .location,
+                        .call,
+                        .email {
+                            width: 30%;
+                        }
+                        .fname,
+                        .lname {
+                            display: inline-block;
+                            width: 40%;
+                        }
+                        .ftext,
+                        .ltext {
+                            width: 200px;
+                        }
+                        .eid,
+                        .sub,
+                        .txtarea {
+                            width: 480px;
+                        }
+                        .footer-flex {
+                            display: flex;
+                            padding-bottom: 80px;
+                            padding-top: 80px;
+                        }
+                        .footer-about {
+                            width: 230px;
+                            margin-right: 10px;
+                            line-height: 2.5em;
+                        }
+                        .footer-quick-link {
+                            margin-right: 10px;
+                        }
+                        .follow-us {
+                            margin-right: 10px;
+                        }
+                        .sub-news h5 {
+                            width: 50px;
+                        }
+                        .sub-form input {
+                            width: 80px;
+                        }
+                        .email-btn {
+                            height: 1px;
+                            font-weight: bold;
+                            background-color: white;
+                            border: none;
+                        }
+                        footer p {
+                            text-align: center;
+                        }
+                    }
+                    
+                    @media(min-width: 993px) {
+                        .mobile-nav {
+                            display: none;
+                        }
+                        header {
+                            height: 700px;
+                        }
+                        .desktop-view {
+                            display: flex;
+                            width: 100%;
+                            height: 100px;
+                            justify-content: space-around;
+                        }
+                        .desktop-view h2 {
+                            width: 40%;
+                            height: 100px;
+                            margin-top: 35px;
+                            font-size: 2em;
+                            color: #fff;
+                        }
+                        .desktop-view h2 span {
+                            color: blue;
+                        }
+                        .desktop-view ul {
+                            display: flex;
+                            justify-content: space-evenly;
+                            width: 40%;
+                            height: 100px;
+                          
+                            align-items: center;
+                        }
+                        .desktop-view ul li {
+                            list-style-type: none;
+                        }
+                        .desktop-view ul li a {
+                            font-size: 1em;
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                        .about p {
+                            width: 500px
+                        }
+                        .we-solve {
+                            display: flex;
+                            margin-bottom: 80px;
+                        }
+                        .img-content {
+                            width: 45%;
+                        }
+                        .text-content {
+                            width: 45%;
+                        }
+                        .img-content img {
+                            margin-top: 30px;
+                        }
+                        .desk-flex {
+                            display: flex;
+                            margin-top: 80px;
+                            justify-content: center;
+                        }
+                        .text2-content {
+                            margin-top: 20px;
+                        }
+                        .meet-flex {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 100px;
+                            margin-top: 50px;
+                        }
+                        .how-desk-flex {
+                            display: flex;
+                            margin-bottom: 100px;
+                        }
+                        .how-img {
+                            width: 45%;
+                        }
+                        .how-text {
+                            width: 45%;
+                        }
+                        .how-text p {
+                            width: 350px;
+                        }
+                        .service-business,
+                        .service-credit,
+                        .service-income {
+                            display: inline-block;
+                            width: 31%;
+                            height: 300px;
+                            margin-bottom: 100px;
+                            padding: 10px;
+                        }
+                        .service-insurance,
+                        .service-finance,
+                        .service-mgt {
+                            display: inline-block;
+                            width: 31%;
+                            height: 300px;
+                            margin-bottom: 150px;
+                            padding: 10px;
+                        }
+                        .quotes h1 {
+                            font-size: 2em;
+                        }
+                        .quotes blockquote q {
+                            font-size: 1.5em;
+                            margin-top: 150px;
+                        }
+                        .author-img img {
+                            width: 80px;
+                            height: 80px;
+                            margin-top: 50px;
+                        }
+                        .author-img p {
+                            font-size: 1.5em;
+                            margin-top: 70px;
+                        }
+                        .subprice,
+                        .subprice-1,
+                        .subprice-2 {
+                            display: inline-block;
+                            width: 29%;
+                        }
+                        .pricing {
+                            height: 850px;
+                        }
+                        .pricing h2 {
+                            font-size: 2em;
+                        }
+                        .subprice-1 {
+                            margin-left: -1px;
+                        }
+                        .qanda {
+                            margin-bottom: 70px;
+                        }
+                        .desk-qanda-1,
+                        .desk-qanda-2 {
+                            display: inline-block;
+                            width: 46%;
+                            margin-right: 30px;
+                            margin-bottom: 50px;
+                        }
+                        .loan-sec {
+                            display: flex;
+                        }
+                        .img-4 {
+                            width: 50%%;
+                        }
+                        .loan-sec section {
+                            width: 60%;
+                        }
+                        .img-4 img {
+                            height: 500px;
+                        }
+                        .bank-icon img,
+                        .bank-cons img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        .bank-txt h4,
+                        .bank-cons-txt h4 {
+                            font-size: 1.5em;
+                        }
+                        .bank-txt p,
+                        .bank-cons-txt p {
+                            font-size: 1em;
+                        }
+                        .our-blog-1,
+                        .our-blog-2,
+                        .our-blog-3 {
+                            display: inline-block;
+                            width: 30%;
+                        }
+                        .ftext,
+                        .ltext {
+                            width: 350px;
+                            height: 40px;
+                        }
+                        .eid,
+                        .sub {
+                            width: 720px;
+                            height: 45px;
+                        }
+                        .txtarea {
+                            width: 720px;
+                            height: 120 px;
+                        }
+                        .footer-about {
+                            margin-left: 5px;
+                            margin-top: -10px;
+                        }
+                        .footer-about h4 {
+                            font-size: 1.2em;
+                        }
+                        .footer-about p {
+                            text-align: left;
+                        }
+                        .footer-quick-link {
+                            margin-top: 10px;
+                        }
+                        .footer-quick-link h4 {
+                            font-size: 1.2em;
+                        }
+                        .footer-quick-link ul li a {
+                            font-size: 1.2em;
+                        }
+                        .follow-us h5 {
+                            font-size: 1.2em;
+                        }
+                        .follow-us {
+                            margin-top: 40px;
+                        }
+                        .follow-us a {
+                            font-size: 2em;
+                        }
+                        .sub-news {
+                            margin-top: 35px;
+                        }
+                        .sub-news h5 {
+                            font-size: 1.2em;
+                            margin-bottom: 50px;
+                        }
+                        .sub-form input {
+                            width: 150px;
+                        }
+                        .gallery-img-1 img,
+                        .gallery-img-2 img,
+                        .gallery-img-3 img {
+                            height: 300px;
+                        }
+                    }
+                    @media(min-width: 1200px){
+                        .wrapper h1{
+                            font-size: 3.2em;
+                            letter-spacing: 0em;
+                        }
+                         
+                        .about p{
+                            width: 700px;
+                            font-weight: lighter;
+                        }
+                        .we-solve{
+                            margin-top:-50px;
+                        }
+                        .we-solve h2{
+                            margin-top: 50px;
+                        }
+                        .money-saving p,
+                        .credit-debit p,
+                        .online-shopping p{
+                            width: 300px;
+                        }
+                        .desk-flex{
+                            margin-top: 0px;
+                        }
+                        .text2-content{
+                            margin-left: 50px;
+                        }
+                        .text2-content p{
+                           padding-right: 50px;
+                        }
+                        .meet-team p{
+                            width: 800px;
+                            font-weight: lighter;
+                        }
+                        .gallery-img-1{
+                            margin-right: 30px;
+                        }
+                        .gallery-img-1 img{
+                         width: 250px;
+                         height: 250px;
+                        }
+                        .gallery-img-2{
+                            margin-right: 30px;
+                        }
+                        .gallery-img-2 img{
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .gallery-img-3 {
+                            margin-right: 30px;
+                        }
+                        .gallery-img-3 img{
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .how-works h1{
+                            font-size: 2.5em;
+                        }
+                        .how-works p{
+                            width: 600px;
+                        }
+                        .how-text{
+                            margin-top: 50px;
+                        }
+                        .how-text p{
+                            width: 450px;
+                        }
+                        .how-text a{
+                            padding: 10px;
+                        }
+                        .our-services h2{
+                            font-size: 2.5em;
+                            padding-top: 50px;
+                        }
+                        .quotes h1{
+                            font-size: 2.5em;
+                        }
+                        .quotes blockquote {
+                            width: 800px;
+                            font-size: 0.9em;
+                        }
+                        .author-img p{
+                        margin-left: -400px;
+                        margin-top: 75px;
+                        }
+                        .subprice,
+                        .subprice-1,
+                        .subprice-2 {
+                            margin-right: 25px;
+                        }
+                        .contact-form{
+                            text-align: center;
+                        }
+                        .contact-form h2{
+                            margin-left: 50px;
+                            font-size:2em;
+                        }
+                        .fname,
+                        .lname{
+                            display: block;
+                        }
+                        .fname input,
+                        .lname input,
+                        .email-id input,
+                        .subject input,
+                        .msg textarea{
+                            width: 500px;
+                        }
+                        .send-btn{
+                            margin-left: 120px;
+                        }
+                    }

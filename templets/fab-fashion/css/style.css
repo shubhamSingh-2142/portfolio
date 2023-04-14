@@ -1,0 +1,282 @@
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+/* 'Ubuntu', sans-serif */
+.root{
+    --font1:'Open Sans', sans-serif;
+    --font2:'Great Vibes', cursive;
+    --font3:'Ubuntu', sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/slider/pursuit-retro-DFbGTKQeBb8-unsplash\(1\).jpg);
+    background-size: 100% 100%;
+}
+.fab{
+    font-family: monospace;
+    color: #fff;
+}
+.fab span{
+    font-family:great Vibes;
+    color: #E8206B;
+}
+.desk-nav li{
+    list-style-type: none;
+}
+.desk-nav li a{
+    text-decoration: none;
+    font-size: .9em;
+    text-transform: uppercase;
+    color: #E8206B;
+    transition: 0.2s;
+}
+.desk-nav li a:hover{
+    color: #fff;
+}
+.slider-text{
+    margin-top: 15%;
+}
+.slider-text h4{
+    font-family: Open Sans;
+    font-size: 4.5em;
+    color:#000;
+}
+.menu-back{
+    background-color: #393A3A;
+}
+.mobile-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.mobile-menu ul li a:hover{
+    color: #E8206B;
+}
+.welcome-fab{
+    background-color: #E8206B;
+    padding: 4%;
+}
+.welcome-fab h4{
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+.welcome-fab p{
+    font-size: .9em;    
+}
+.main-design-div{
+    padding-left:5%;
+    padding-right:5%;
+}
+.design img{
+    border: 1px solid #949191;
+    width: 90%;
+    padding: 6%;
+    transition: 0.5s;
+}
+.design img:hover{
+    transform: scale(1.2);
+}
+figcaption h5{
+    margin-top: 10%;
+    font-size: 1.4em;   
+    color: #E8206B;
+    font-family: Ubuntu;
+}
+figcaption p{
+    font-size: .9em;
+    font-weight: lighter;
+}
+.more{
+    border: 1px solid #E8206B;
+    color: #E8206B;
+}
+.more:hover{
+    color: #fff;
+    background-color: #E8206B;
+}
+.features{
+    padding-top: 7%;
+}
+.features h2{
+    font-size: 3em;
+    font-weight: 600;
+}
+.features p{
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 4%;
+    background-color: #E8206B;
+    font-size: 2.5em;
+    padding: 5%;
+    color: #fff;
+    transition: 0.6s;
+}
+.icon:hover{
+    background-color: #FFF;
+    color: #E8206B;
+}
+
+.icon-text{
+    border: 4px solid #E8206B;
+    padding: 10% 10px ;
+    margin-top: 2%;
+    transition: 1s;
+}
+.icon-text:hover{
+    background-color: #E8206B;
+    color: #FFF;
+}
+.icon-text h4{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.about{
+    background-color: #EAEAEA;
+}
+
+.about-img{
+    overflow: hidden;
+}
+.about img{
+    object-fit: cover;
+    transition: .5s;
+    overflow:hidden;
+}
+.about img:hover{
+    transform: scalex(1) skewY(10deg);
+}
+.about-text{
+    padding: 6%;
+}
+.about-text h3{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.about-text p{
+    font-weight: lighter;
+}
+.about-text a{
+    color: #E8206B;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 1px solid #E8206B;
+    text-transform: uppercase;
+}
+.video{
+    margin-top: 80px;
+}
+.video-text h4{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.video-text p{
+    font-size: .9em;
+    font-weight: lighter;
+}
+.gallery{
+    padding-top:4% ;
+}
+.gallery h4{
+    font-size: 2.8em;
+    font-family: ubuntu;
+    font-weight: 700;
+}
+.gallery p{
+    font-weight: lighter;
+}
+.gallery-img{
+    margin: 0px;
+    padding: 1px;
+}
+.gallery-img img{
+    transition: 0.5s;
+}
+.gallery-img img:hover{
+   transform: scaleX(1.1) scaleY(1.1);
+}
+.team{
+    padding-top: 80px;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+.team-name{
+    color: #E8206B;
+
+}
+.slide-2{
+    background-color: #E8206B;
+    padding: 8%;
+    margin-top: 8%;
+}
+.owl-slide-2{
+    margin: 0 auto;
+    width: 55%;
+    color: #fff;
+    padding-top: 2%;
+}
+.feed-slide p{
+    font-size: 1.2em;
+}
+.mail h3{
+    font-size: 2.7em;
+    font-weight: 600;
+    padding-top: 7%;
+    font-family: ubuntu;
+}
+.mail-form input{
+    width: 100%;
+    height: 55px;
+    margin-top: 4%;
+}
+.mail-form{
+    padding: 15px 20%;
+}
+.mail-form textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 4%;
+}
+.send{
+    background-color: #E8206B;
+    color: #fff;
+    margin-top: 7%;
+    padding: 10px 30px;
+    letter-spacing: .3em;
+    margin-bottom: 50px;
+}
+
+.address{
+    background-color: #232323
+}
+.address h5{
+    color: #fff;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+.address p{
+    color: #949191;
+    font-size: .9em;
+    padding-left: 15%;
+}
+.shubham{
+    color: goldenrod;
+}
+
+@media(min-width:320px){
+    .mobile-nav{
+        padding-top: 40px;
+    }
+
+}
+@media(min-width:768px){
+    .mobile-nav{
+        padding-top: 40px;
+    }
+    .burger a i{
+        padding-top: 2%;
+        margin-left: 80%;
+    }
+}

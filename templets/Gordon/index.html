@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gordon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4492/4492840.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+        <section class="wrapper">
+
+            <header id="my-home">
+                <nav class="fnav d-lg-flex d-none justify-content-between p-3 align-items-center">
+                    <div>
+                        <ul class="d-flex justify-content-around fnav-1 align-items-center  "> 
+                            <li><a href="#my-home">Home</a></li>
+                            <li><a href="#my-about">About Us</a></li>
+                            <li><a href="#my-gift">Gift Registry</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#my-contact">Contact Us</a></li>
+                            <li><a href="#my-blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-img">
+                        <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/logo.jpg" alt="">
+                    </div>
+                    <div class="cart">
+                        <h6><i class="fas fa-shopping-cart"></i> 0 - Shopping Cart ($0)</h6>
+                    </div>
+                </nav>
+                <nav class="snav d-lg-flex d-none justify-content-between p-1 align-items-center">
+                    <ul class="d-flex justify-content-between w-50">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#new-arr">New Arrivals</a></li>
+                    </ul>
+                    <div class="input-group w-25 pe-5">
+                        <input type="email" placeholder="Search" class="form-control form-control-lg">
+                        <span class="input-group-text bg-white"><i class="fas fa-search"></i></span>
+                    </div>
+                </nav>
+                <!-- Mobile nav -->
+                <nav class="mobile-nav d-flex d-lg-none justify-content-evenly">
+                    <div>
+                        <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/logo.jpg" alt="">
+                    </div>
+                    <div class="fstmenu">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="offcanvas" data-bs-target="#a"><i class="fas fa-bars"></i></button>
+                        <!-- offcanvas-start,end,bottom -->
+                        <div class="offcanvas offcanvas-top h-50 fmenu-bg" id="a">  
+                            <div class='offcanvas-header '>
+                                <h5 class="offcanvas-title text-secondary">Gordon</h5>
+                                <button type='button' class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body fnav-mobile-menu">
+                                <ul>
+                                    <li><a href="#my-home">Home</a></li>
+                                    <li><a href="#my-about">About Us</a></li>
+                                    <li><a href="#my-gift">Gift Registry</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#my-contact">Contact Us</a></li>
+                                    <li><a href="#my-blog">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </nav>
+                <!-- end mobile nav -->
+                <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/slider.jpg" alt="" class="w-100">
+            </header>
+
+            <section class="container mt-5">
+                <div class="row">
+                    <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/templates/gordonwatches-core/images/promo1.jpg" alt="" class="col-12 col-md-6 px-4">
+                    <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/templates/gordonwatches-core/images/promo2.jpg" alt="" class="col-12 col-md-6 px-4">
+                </div>
+            </section>
+
+            <section class="container-fluid timepiece" id="my-gift">
+                <h4>A Timepiece for all Ocassions</h4>
+                <hr class="hr1">
+                <div class="container text-center mt-5">
+                    <div class="owl-carousel my-carousel">
+                        <div class="item">
+                            <div class="mx-auto watch-img">
+                                <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img1_thumbnail.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h6 class="performance-1">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs <span>-Free Shipping.</span></h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="watch-img mx-auto">
+                                <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img2_thumbnail.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h6 class="performance-2">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs <span>-Free Shipping.</span></h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="watch-img mx-auto">
+                                <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img3_thumbnail.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h6 class="performance-3">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs <span>-Free Shipping.</span></h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="watch-img mx-auto">
+                                <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img4_thumbnail.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h6 class="performance-4">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs <span>-Free Shipping.</span></h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="new-release" id="new-arr">
+                <h4>New Releases</h4>
+                <hr class="hr1">
+                <div class="container mt-5">
+                    <div class="row text-center">
+                        <figure class="col-12 col-sm-6 col-md-4 px-md-5">
+                            <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img4_thumbnail.jpg" alt="" class="w-100">
+                            <figcaption>
+                                <h6 class="performance-3">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs Free Shipping. </h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-12 col-sm-6 col-md-4 px-md-5">
+                            <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img3_thumbnail.jpg" alt="" class="w-100">
+                            <figcaption >
+                                <h6 class="performance-3">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships"> Ships in 24hrs Free Shipping. </h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-12 col-sm-6 col-md-4 px-md-5">
+                            <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/thumbnails/img2_thumbnail.jpg" alt="" class="w-100">
+                            <figcaption>
+                                <h6 class="performance-3">Performance</h6>
+                                <h5 class="price">$100</h5>
+                                <h6 class="ships">Ships in 24hrs Free Shipping. </h6>
+                                <h6 class="star5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (0)</h6>
+                                <button class="read-btn">
+                                    <span class="read-more">ADD TO CART</span>
+                                    <span class="for-read-hover"></span>
+                                </button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container mt-5" id="my-about">
+                <div class="row">
+                    <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/templates/gordonwatches-core/images/gear.png" alt="" class="col-12 col-sm-6 p-5">
+                    <div class="col-12 col-sm-6 p-5 tick">
+                        <h4>What Makes us Tick</h4>
+                        <p>A look behind the scenes
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore mag naliquam erat volutpat wilp. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="container-fluid pt-5 text-white">
+                <div class="row pb-3">
+                    <div class="col-12 col-sm-5 company pe-5">
+                        <h5>Company Links</h5>
+                        <hr>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Become an Affiliate</a></li>
+                            <li><a href="#">Product Index</a></li>
+                            <li><a href="#">Category Index
+                            </a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-12  offset-lg-2 col-sm-5 news">
+                        <h5>News and Information </h5>
+                        <hr>
+                        <p>Signup to our newsletter to receive the latest news and information.</p>
+                        <div class="input-group w-75 pe-5 foot-email">
+                            <input type="email" placeholder="Enter your Email Address" class="form-control form-control-md">
+                            <span class="input-group-text"><i class="fas fa-play"></i></span>
+                        </div>
+                        <div class="radio-btn">
+                            <input type="radio" name="rdt-btn">
+                            <label for="">Subscribe</label>
+                            <input type="radio" name="rdt-btn">
+                            <label for="">Unsubscribe</label>
+                        </div>
+                        <h5 class="foot-social">Social Media</h5>
+                        <span class="foot-icon"><i class="fab fa-facebook-f"></i></span><span class="foot-icon"><i class="fab fa-twitter"></i></span><span class="foot-icon"><i class="fab fa-pinterest-p"></i></span>
+                    </div>
+                </div>
+                <hr>
+                <div class="copy d-flex justify-content-between">
+                    <p>Copyright &copy; 2020-21. All Rights Reserved. template by<span> ShubhamSingh &sect;</span></p>
+                    <img src="https://gordon-watches-preview-com.3dcartstores.com/assets/images/3dcart/cards-gw.png" alt="" class="d-lg-flex d-none">
+                </div>
+            </footer>
+        </section>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        
+        <!-- owl carausal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.my-carousel').owlCarousel({
+                    loop:true,
+                    autoplay:true,
+                    margin:10,
+                    dots:true,
+                    nav:true,
+                    navText:["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+                    responsive:{
+                    0:{
+                        items:1,
+                    },
+                    768:{
+                        items:2
+                    },
+                    993:{
+                        items:3
+                    },
+                    1200:{
+                        items:4,
+                    }
+                }
+                });
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,373 @@
+<?php
+// Using the ini_set()
+ini_set("SMTP", "smtpout.asia.sescureserver.net");
+ini_set("sendmail_from", "hr@ecti.co.in");
+ini_set("smtp_port", "80");
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shubham | Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fav -->
+        <link rel="icon" href="https://img-premium.flaticon.com/png/512/5399/premium/5399807.png?token=exp=1633527781~hmac=4001e5b9db22b8abb903eb4c8ba218ec">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- cont boot -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.css"/> -->
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- fades -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+       <section class="wrapper">
+           <!-- header area -->
+            <header class="vh-75" id="my-home">
+                <nav class="nav d-lg-flex d-none justify-content-between align-item-center">
+                    <div class="logo">SHUBHAM</div>
+                    <ul class="d-flex justify-content-between">
+                        <li><a href="#my-home">HOME</a></li>
+                        <li><a href="#my-about">ABOUT</a></li>
+                        <li><a href="#my-services">Services</a></li>
+                        <li><a href="#my-portfolio">portfolio</a></li>
+                        <li><a href="#my-skills">skills</a></li>
+                        <li><a href="#my-contact">contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile-nav d-flex d-lg-none justify-content-between align-item-center">
+                    <div class="mobile-logo">SHUBHAM</div>
+                    <div class="ms-5">
+                        <div class="burger">
+                        <a href="#" class=" pt-2" data-bs-toggle="offcanvas" data-bs-target="#a"><i class="fas fa-bars"></i></a>
+                        <!-- offcanvas-start,end,bottom -->
+                        <div class="offcanvas offcanvas-top h-50 menu-back" id="a">  
+                            <div class='offcanvas-header'>
+                                <h5 class="offcanvas-title"><h3 class="head-title h4 ">SHUBHAM</h3></h5>
+                                <button type='button' class="btn-close " data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body mobile-menu">
+                                <ul>
+                                    <li><a href="#my-home">Home</a></li>
+                                    <li><a href="#my-about">about</a></li>
+                                    <li><a href="#my-services">services</a></li>
+                                    <li><a href="#my-portfolio">portfolio</a></li>
+                                    <li><a href="#my-skills">skills</a></li>
+                                    <li><a href="#my-contact">contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <h1 class="main-singh">SINGH</h1>
+                <div class="banners d-flex">
+                    <div class="w-100">
+                        <img src="images/img.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="w-100 black w-100">
+
+                    </div>
+                </div>
+            </header>
+            <!-- end header area -->
+
+            <!-- start about area -->
+            <section class="container-fluid about position-relative" id="my-about">
+                <h3>About My Career</h3>
+                <h4>About Me</h4>
+                <p class="about-f-block" data-aos="flip-right">hello, i am shubhamsingh rajput. I have done my Graduation BCA from Shivaji University of college VPIMSR Institute, Miraj in the year of 2019.</p>
+                <p class="about-s-block" data-aos="flip-left">I am pursuing my Master's degree MCA from CSIBER University of college CSIBER Institute from Kolhapur and I will pass out the year of 2022.</p>
+            </section>
+            <!-- end about area -->
+
+            <!-- start services area -->
+            <section class="container-fluid blocks" id="my-services">
+                <div class="container">
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-12 col-md-4" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <figure class="skill-block">
+                                <i class="fas fa-laptop-code skill-icon"></i>
+                                <figcaption class="skill-text">
+                                    <h5>Responsive Web Development</h5>
+                                    <p>I have good Knowledge Of responsive Web development which i used in my templates based on html, css and Bootstrap.</p>
+                                    <button class="arrow-1">
+                                        <a href="templets/Hospital/index.html" class=""><i class="fas fa-arrow-circle-right"></i></a>
+                                        <span></span>
+                                    </button>
+                                </figcaption>
+                            </figure>
+                       </div>
+                       <div class="col-12 col-md-4" data-aos="fade-center"
+                       data-aos-offset="300"
+                       data-aos-easing="ease-in-sine">
+                            <figure class="skill-block">
+                                <i class="fab fa-js-square skill-icon"></i>
+                                <figcaption class="skill-text">
+                                    <h5>Javascript/Jquery/Typescript</h5>
+                                    <p>I have basic knowledge of Javascript, JQuery and TypeScript. Also I have used in my projects.</p>
+                                    <button class="arrow-2">
+                                        <a href="templets/Gordon/index.html" class=""><i class="fas fa-arrow-circle-right"></i></a>
+                                        <span></span>
+                                    </button>
+                                </figcaption>
+                            </figure>
+                        </div> 
+                        <div class="col-12 col-md-4" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <figure class="skill-block">
+                                <i class="far fa-window-maximize skill-icon"></i>
+                                <figcaption class="skill-text">
+                                    <h5>Dot net fullstack developer</h5>
+                                    <p>I have knowledge of Front-end and Back-end of ASP.net. Also I can work on Core PHP and Frameworks of ASP .net.</p>
+                                    <button class="arrow-3">
+                                        <a href="#" id="dotnet" class=""><i class="fas fa-arrow-circle-right"></i></a>
+                                        <span></span>
+                                    </button>
+                                </figcaption>
+                            </figure>
+                        </div>   
+                    </div>
+                </div>
+            </section>
+            <!-- end services ares -->
+
+            <!-- start portfolio area -->
+            <section class="container letandget" id="my-portfolio">
+                <h1 class="latest" data-aos="fade-down-right">Latest &</h1>
+                <h1 class="great" data-aos="fade-down-left">Gretest</h1>
+            </section>
+
+            <section class="counter-head container-fluid">
+                <div class="row text-center">
+                    <div class="html-count col-12 col-sm-4" data-aos="zoom-in-up">
+                        <div class="counter">2</div>
+                        <h5 class="">HTML/CSS</h5>
+                    </div>
+                    
+                    <div class="boot-count col-12 col-sm-4" data-aos="zoom-in-up">
+                        <div class="counter">8</div>
+                        <h5>BOOTSTRAP</h5>
+                    </div>
+                    <div class="port-count col-12 col-sm-4" data-aos="zoom-in-up">
+                        <div class="counter">1</div>
+                        <h5>PORTFOLIO</h5>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid portfolio mx-0 px-0" id="my-portfolio-2">
+                <h5>My Excellent Work</h5>
+                <h6>PORTFOLIO</h6>
+                <div class="black-port" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="port-wrap">
+                        <div class="temp-ss color-1"><a href="templets/OnlineEdu/index.html">+</a></div>
+                        <div class="temp-ss color-2"><a href="templets/Bank/index.html">+</a></div>
+                        <div class="temp-ss color-3"><a href="templets/car repair/index.html">+</a></div>
+                        <div class="temp-ss color-4"><a href="templets/Gordon/index.html">+</a></div>
+                        <div class="temp-ss color-5"><a href="templets/Shape/index.html">+</a></div>
+                        <div class="temp-ss color-6"><a href="templets/fab-fashion/index.html">+</a></div>
+                        <div class="temp-ss color-7"><a href="templets/china-bistro/index.html">+</a></div>
+                        <div class="temp-ss color-8"><a href="templets/Real Estate/index.html">+</a></div>
+                        <div class="temp-ss color-9"><a href="templets/Hospital/index.html">+</a></div>
+                        <div class="temp-ss color-10"><a href="templets/Bakery/index.html">+</a></div>
+                    </div>
+                </div>
+            </section>
+            <!-- end portfolio area -->
+
+            <!-- start skills area -->
+           <section class="container-fluid" id="my-skills">
+                <div class="row">
+                    <div class="work-together col-12 col-md-6 pt-5" data-aos="flip-right">
+                        <p class="lets-work">Let's Work Together On Your Next Project</p>
+                        <p class="will-give">I will give my 100% to complete each and every task of your projects. So for that I want a change to work with your organization so please give me one chance.</p>
+                        <button>
+                            <a href="#my-portfolio-2">My Work</a>
+                            <span class="text"></span>
+                        </button>
+                    </div>
+                    <div class="skill-bar col-12 col-md-6 pt-5" data-aos="flip-left">
+                        <p class="my-skill">My skills on computing</p>
+                        <div class="mb-5">
+                            <div class="d-flex justify-content-between w-75 bar-1-text">
+                                <h6>Dot net fullstack developer</h6>
+                                <h6>80%</h6>
+                            </div>
+                            <div class="progress bar1">
+                                <div class="progress-bar bar1-1" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="d-flex justify-content-between w-75 bar-1-text">
+                                <h6>Javascript/JQuery/Typescript</h6>
+                                <h6>70%</h6>
+                            </div>
+                            <div class="progress bar1">
+                                <div class="progress-bar bar1-1" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="d-flex justify-content-between w-75 bar-1-text">
+                                <h6>Responsive Webdesign</h6>
+                                <h6>90%</h6>
+                            </div>
+                            <div class="progress bar1">
+                                <div class="progress-bar bar1-1" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="d-flex justify-content-between w-75 bar-1-text">
+                                <h6>Database</h6>
+                                <h6>60%</h6>
+                            </div>
+                            <div class="progress bar1">
+                                <div class="progress-bar bar1-1" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+           </section>
+           <!-- end skills area -->
+
+           <!-- start contact area -->
+           <section class="contact-us" id="my-contact">
+                <h5>You Can Contact Here</h5>
+                <h6>Contact</h6>
+                <div class="contact-bg" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-sm-6 text-center mx-auto" id="frmdiv">
+                        <div id="succmsg" class="col-sm-12" style="display: none;"></div>
+                        <form name="frm_contact_us" id="frm_contact_us" method="post" action="">
+                            <div class="form-group form-floating name-input">
+                                <input type="text" placeholder="Enter Your Name" name="txtname" id="txtname" class="form-control"/>
+                                <label for="txtname">Name</label>
+                            </div>
+                            <div class="form-group form-floating phone-input">
+                                <input type="text" placeholder="Enter Your Phone" name="txtphone" id="txtphone" class="form-control" />
+                                <label for="txtphone">Contact No.</label>
+                            </div>
+                            <div class="form-group form-floating email-input">
+                                <input type="email" placeholder="Enter Your Email" name="txtemail" id="txtemail" class="form-control" pattern="" />
+                                <label for="txtemail">Email ID</label>
+                            </div>
+                            <div class="form-group form-floating msg-input">
+                                <textarea class="form-control" name="txtmsg" id="ta_msg" placeholder="Type your msg here"></textarea>
+                                <label for="txtmsg">Message</label>
+                            </div>
+                            <div class="form-group contact-send">
+                                <button type="submit" name="submit" class="btn ">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+           </section>
+           <!-- end contact area -->
+
+           <!-- start footer area -->
+           <footer class="container-fluid">
+               <div class="row">
+                    <div class="copy col-12 col-md-4">
+                        <h5>Copyright &copy; 2021-22 All &amp; reserved.
+                            <span>Design And Developed By</span><span class="shubham">  ShubhamSingh &sect;</span></h5>
+                    </div>
+                    <div class="social col-12 col-md-4 text-center">
+                        <h6>Get In Touch</h6>
+                        <a href="https://www.linkedin.com/in/shubhamsingh-rajput-2142singh/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="upside col-12 col-md-4 text-center">
+                        <a href="#my-home" class=""><i class="fas fa-hand-point-up"></i></a>
+                    </div>
+               </div>
+           </footer>
+    
+
+
+           <!-- end footer area -->
+       </section>
+
+        <!-- local js -->
+        <script type='text/javascript' src="js/my-js.js"></script>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <!-- fades -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- contact us -->
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script type="text/javascript" src="js/contact_us.js"></script>
+        <!-- end contact -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <!-- counter up js -->
+        <script>
+            $('.counter').counterUp({
+                delay:10,
+                time:1000
+            });
+        </script>
+        <!-- portfolio slider -->
+        <script>
+            $(document).ready(function(){
+                $(".temp-ss").hover(function(){
+                    $('.temp-ss').css({'width':'20%'});
+                    $('.temp-ss').css({'opacity':'0.2'});
+                    $('.temp-ss').css({'text-align':'center'});
+                    $(this).css({'width':'100%'});
+                    $(this).css({'opacity':'1'});
+                    $(this).css({'text-align':'center'});
+                    $(this).css({'padding-top':'27%'});
+                });
+            });
+            $(document).ready(function(){
+                $('input').focus(function(){
+                    $(this).css({
+                        "background-color":'black'
+                    });
+                });
+                $('textarea').focus(function(){
+                    $(this).css({
+                        "background-color":'black'
+                    });
+                });
+                $('input').blur(function(){
+                    $(this).css({
+                        "border-color":'red'
+                    });
+                });
+                $('textarea').blur(function(){
+                    $(this).css({
+                        "border-color":'red'
+                    });
+                });
+            });
+            $(document).ready(function(){
+                $('#dotnet').click(function(){
+                    alert("Dot Net project Comming Soon")
+                });
+            });
+        </script>
+    </body>
+</html>

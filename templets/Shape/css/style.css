@@ -1,0 +1,297 @@
+
+.root{
+    --font1:'Roboto', sans-serif;
+}
+
+html{
+    font-family: var(--font1)   ;
+}
+
+.desk-nav{
+    background-color: rgba(0, 0, 0, 0.35);
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    background: url(https://webthemez.com/demo/shape-free-fitness-website-template/img/slides/2.jpg);
+    background-size: 100% 100%;
+}
+.bar-contact{
+   padding-right: 150px;
+}
+.shape{
+    margin-left: 7px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #EC4141;
+}
+.shape:hover{
+    color: #fff;
+}
+.anchor-logo{
+    text-decoration: none;
+    margin-left:10%;
+}
+.menu{
+    list-style-type: none;
+    font-weight: 700;
+    color: #fff;
+}
+.menu-itom{
+    color: #fff;
+}
+.menu-itom:hover{
+    color: #EC4141;
+    background-color: white;
+    padding: 30px 10px;
+}
+.mobile-nav{
+
+}
+.menu-back{
+    background-color: #EC4141;
+    width: 100%;
+}
+
+.mobile-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.mobile-menu ul{
+    margin-top: -20px;
+}
+
+
+.per-take{
+    margin-top: 30%;
+    margin-left: 12%;
+}
+.per-take h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 3em
+}
+.per-take h3{
+    color: #fff;
+    font-size: 1.3em;
+}
+.offer{
+    background-color: #EC4141;
+   
+}
+.best-offer h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.best-offer p{
+    margin-top: 25px;
+    font-size: .9em;
+}
+.aero-img-1{
+    filter:grayscale(50%);
+    transition: 0.5s;
+}
+.aero-img-1:hover{
+    transform:scale(1.1) rotate(-5deg);
+}
+.aero-img-2{
+    filter:grayscale(50%);
+    transition: 0.5s;
+}
+.aero-img-2:hover{
+    transform:scale(1.2);
+}
+.aero-img-3{
+    filter:grayscale(50%);
+    transition: 0.5s;
+}
+.aero-img-3:hover{
+    transform:scale(1.1) rotate(5deg);
+}
+.aero-head{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:relative;
+}
+.aero-p{
+    background-color: #fff;
+    color: black;
+    border: 2px solid #fff;
+    font-size: .7em;
+    padding: 20px;
+    margin-top: 0px;
+}
+.best-service h3{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.best-service p{
+    margin-top: 25px;
+    font-size: .9em;
+    font-weight: lighter;
+    color: #656565;
+}
+.service-icon{
+    font-size: 1.8em;
+    color: #EC4141;
+    margin-right: 20px;
+}
+
+.services-divs p{
+    font-weight: lighter;
+    color: #656565;
+}
+.studio{
+    background-color: #272727;
+}
+.our-fitness p{
+    font-weight: 5  00;
+    font-size: .9em;
+    color: #888888;
+    padding-top: 20px;
+}
+.grid-txt{
+    font-size: .9em;
+    width: 560px;
+    color: #888888;
+}
+.grid-img img{
+    height: 45vh;
+}
+.grid-txt ul li span{
+    margin-left: -25px;
+}
+.right-arrow{
+    border: 1px solid #EC4141;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: #EC4141;
+}
+.studio-list{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.studio-learn{
+    background-color: #EC4141;
+
+}
+footer{
+    background-color: #000000;
+}
+.our-contact h5{
+    font-size: .9em;
+    margin-top:5%
+}
+.our-contact p{
+    font-size: 1em;
+    color: #888888;
+}
+.quick-links h5{
+    font-size: .9em;
+    margin-top:5%
+}
+.quick-links ul li{
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+.quick-links ul{
+    padding-left:0px;
+}
+.quick-links ul li a{
+    color: #888888;
+    text-decoration: none;
+}
+.latest-post h5{
+    font-size: .9em;
+    margin-top:5%
+}
+.latest-post ul li{
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+.latest-post ul{
+    padding-left: 0px;
+}
+.latest-post ul li a{
+    color: #888888;
+    text-decoration: none;
+}
+.recent-news h5{
+    font-size: .9em;
+    margin-top:5%
+}
+.recent-news ul li{
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+.recent-news ul{
+    padding-left: 0px;
+}
+.recent-news ul li a{
+    color: #888888;
+    text-decoration: none;
+}
+.copyright{
+    font-size: .8em;
+}
+.shubham{
+    color: #EC4141;
+    font-size: 1.2em;
+}
+.shubham:hover{
+    color: white;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #888888;
+   
+}
+.social-icon a i{
+    
+    padding: 5px;
+    border: 1px solid #888888;
+}
+.social-icon a i:hover{
+    color: #EC4141;
+}
+
+
+
+
+
+
+
+
+@media(min-width:320px){
+    
+}
+@media (max-width:768px){
+   
+   .per-take h3{
+    font-size: 1.5em;        
+}
+.per-take h1{
+    font-size: 2.5em;
+}
+}
+@media(min-width:768px) {
+    .footer-anchor-3 ul{
+        width: 200px;
+    }
+    .foot-anchor{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    
+}

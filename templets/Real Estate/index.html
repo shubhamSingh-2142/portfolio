@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Real Estate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fav -->
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/609/609803.png">
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- font-awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- my-css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      
+
+        <section class="wrapper"> 
+
+            <header>
+                <nav class="fnav d-lg-flex d-none justify-content-between align-items-center">
+                    <p class="welcome pt-3">Welcome to Conbusi consulting service</p>
+                    <div class="head-social w-50">
+                        <span class="head-mail"><i class="fas fa-envelope"></i>info@docmed.com</span>
+                        <span class="head-call"><i class="fas fa-phone"></i>1601-609 6780</span>
+                        <span class="head-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                        </span>
+                    </div>
+                </nav>
+            </header>    
+
+
+
+            <main class="min-main">
+                <nav class="snav d-lg-flex d-none justify-content-evenly align-items-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAAnCAMAAABZjXg7AAAAUVBMVEUAAAD/sl3/sF3/////sF38rlz////////9rlv////9rVz////9rVv////////8rlv////////////////////////////9rlz////9rlz///94FiPnAAAAGXRSTlMAHjdHTWFjeISJk5iipbG8vMXP2ODp8PX4ICluxQAAAutJREFUWMPtl+2WnCAMht2yhbJUFxAYh/u/0EL4COhonTndnp4e82dnCcITkrzoMFx22WWXXfalpowx7C/uJ4sJ8sRTxnsv6n9UotHtZMY5p7tLHXuzebSZvEjJm0XE48nqcCn1BKX39F+mDEVmXPxhX6d0OePsyygh07I5CToFbj1iBbDQLvNEBx44+EPKLkAy6jA/1SiX8QBseDC7ZmOUSA2x8Q4iPGi2oVbKwZWgiC7pm/KmZWCSec4xpVjyfF2i92Ub4dJvS9PIY29w71GWoye2aSjw4IA7Q9mUqV5Rim6lNeXY1DfbobQNgZ+lgnXGKI4pPJMD/S2lhRxOJm02mniyLiSSDBQOeTGmkrVeiM4pOcPfx5QQCM8nMZU8L6FIYeXINC37lEtqHp6XjBmLu8muP6BydPBRU7OMXlNSzResNqRUYXnIaggI1tapHBdgmTJ+xNyn9HjQpQ1p0GvWcSxVlYnbUDLUQrlux1YuIZC4kuRgqQYitsmz3RlKyJhBheg5UrwpdR1lPAKXNp6wDteUS1IO35vqBM3sZ9yAxTyx3OJu6tsyRUOayDpKudp5TSlVIzsvUrYJorq7if4QJUlJInVA49uDgGXmpyhB1l0VlJ6SHVG65r1lS0l97Rm77i+FEVB/khJGbV6zchCPadEbSpEk5eiGlDXMWLkLQMVrMjQUq/JOzBnKupvIw1gyc91FPFCiJStX2CdYHHv/eO8oQXVs1R8nwktjoQORsiMf3YGq5+7kOS9Bb8icn4dkjJwXNsW5xtJDL2yo6CBsDubn/X7/7FR9LDdNd085WgSkF5vDNzeFVyBM4tgO87ZB0NtezXCo92hv3d1ja6YR0/L+7cHqM5SD7iKqbDFlFRMlsfEiJvTOLUDeekqOq1INWK5+HiRpCYIqT1EOIl2ApkyZLF7ELnuwJ1tv4pzTgz9u99vH0WsnS5db07GcP/M5Rfa/Zujhdw6B2s729v3b9SV82WWXXfaf2S+a0ZjfDFef8AAAAABJRU5ErkJggg==" alt="">
+                    <div>
+                        <ul class="desk-nav d-lg-flex d-none justify-content-evenly align-items-center">
+                            <li><a href="#my-home">Home</a></li>
+                            <li>
+                                <a href="#my-home" class="btn  dropdown-toggle" role="button" id="a" data-bs-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a href="#" class="dropdown-item">service 1</a></li>
+                                    <li><a href="#" class="dropdown-item">service 2</a></li>
+                                    <li><a href="#" class="dropdown-item">service 3</a></li>
+                                </ul>                     
+                            </li>
+                            <li><a href="#my-property">Property</a></li>
+                            <li>
+                                <a href="#my-blog">
+                                    <a href="#my-blog" class="btn  dropdown-toggle" role="button" id="a" data-bs-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu bg-dark">
+                                        <li><a href="#" class="dropdown-item">blog 1</a></li>
+                                        <li><a href="#" class="dropdown-item">blog 2</a></li>
+                                        <li><a href="#" class="dropdown-item">blog 3</a></li>
+                                    </ul>     
+                                </a>    
+                            </li>
+                            <li><a href="#my-contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="add-prop">
+                        <span class="search"><i class="fas fa-search"></i></span>
+                        <button class="add-property">
+                            <a href="#my-add-property" class="btn">Add Property</a>
+                        </button>
+                    </div>
+                </nav>
+                <nav class="d-lg-none d-flex justify-content-around align-item-center pt-5 mobile-nav">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAAnCAMAAABZjXg7AAAAUVBMVEUAAAD/sl3/sF3/////sF38rlz////////9rlv////9rVz////9rVv////////8rlv////////////////////////////9rlz////9rlz///94FiPnAAAAGXRSTlMAHjdHTWFjeISJk5iipbG8vMXP2ODp8PX4ICluxQAAAutJREFUWMPtl+2WnCAMht2yhbJUFxAYh/u/0EL4COhonTndnp4e82dnCcITkrzoMFx22WWXXfalpowx7C/uJ4sJ8sRTxnsv6n9UotHtZMY5p7tLHXuzebSZvEjJm0XE48nqcCn1BKX39F+mDEVmXPxhX6d0OePsyygh07I5CToFbj1iBbDQLvNEBx44+EPKLkAy6jA/1SiX8QBseDC7ZmOUSA2x8Q4iPGi2oVbKwZWgiC7pm/KmZWCSec4xpVjyfF2i92Ub4dJvS9PIY29w71GWoye2aSjw4IA7Q9mUqV5Rim6lNeXY1DfbobQNgZ+lgnXGKI4pPJMD/S2lhRxOJm02mniyLiSSDBQOeTGmkrVeiM4pOcPfx5QQCM8nMZU8L6FIYeXINC37lEtqHp6XjBmLu8muP6BydPBRU7OMXlNSzResNqRUYXnIaggI1tapHBdgmTJ+xNyn9HjQpQ1p0GvWcSxVlYnbUDLUQrlux1YuIZC4kuRgqQYitsmz3RlKyJhBheg5UrwpdR1lPAKXNp6wDteUS1IO35vqBM3sZ9yAxTyx3OJu6tsyRUOayDpKudp5TSlVIzsvUrYJorq7if4QJUlJInVA49uDgGXmpyhB1l0VlJ6SHVG65r1lS0l97Rm77i+FEVB/khJGbV6zchCPadEbSpEk5eiGlDXMWLkLQMVrMjQUq/JOzBnKupvIw1gyc91FPFCiJStX2CdYHHv/eO8oQXVs1R8nwktjoQORsiMf3YGq5+7kOS9Bb8icn4dkjJwXNsW5xtJDL2yo6CBsDubn/X7/7FR9LDdNd085WgSkF5vDNzeFVyBM4tgO87ZB0NtezXCo92hv3d1ja6YR0/L+7cHqM5SD7iKqbDFlFRMlsfEiJvTOLUDeekqOq1INWK5+HiRpCYIqT1EOIl2ApkyZLF7ELnuwJ1tv4pzTgz9u99vH0WsnS5db07GcP/M5Rfa/Zujhdw6B2s729v3b9SV82WWXXfaf2S+a0ZjfDFef8AAAAABJRU5ErkJggg==" alt="" class="">    
+                    <div class="ms-5">
+                        <div class="burger">
+                            <a href="#" class=" pt-2" data-bs-toggle="offcanvas" data-bs-target="#a"><i class="fas fa-bars text-white h3"></i></a>
+                        </div>
+                    <!-- offcanvas-start,end,bottom -->
+                        <div class="offcanvas offcanvas-top menu-back" id="a">  
+                           <div class='offcanvas-header'>
+                                <h5 class="offcanvas-title"><h3 class="fab ps-5 h1 text-white">Real<span class="h1 bistro">Estate</span></h3></h5>
+                                <button type='button' class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body bg-dark">
+                                <ul class="desk-nav d-lg-flex d-none justify-content-evenly align-items-center">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Pages</a></li>
+                                    <li><a href="#">Property</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
+                </nav>
+
+                <div class="find-best-prop" >
+                    <h3>Find Your Best Property</h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <div class="filter-search d-lg-flex justify-content-evenly py-5">
+                        <div class="location">
+                            <h6>location</h6>
+                            <select name="" id=""  class="form-control form-control-md text-white">
+                                <option value="">NewYork</option>
+                                <option value="">NewYork</option>
+                                <option value="">NewYork</option>
+                            </select>
+                        </div>
+                        <div class="property">
+                            <h6>Property</h6>
+                            <select name="" id="" class="form-control form-control-md text-white">
+                                <option value="">Apartment</option>
+                                <option value="">Apartment</option>
+                                <option value="">Apartment</option>
+                            </select>
+                        </div>
+                        <div class="price">
+                            <h6>Price($)</h6>
+                            <input type="range">
+                        </div>
+                        <div class="bed-room">
+                            <h6>Bed Room</h6>
+                            <select name="" id="" class="form-control form-control-md text-white">
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                            </select>
+                        </div>
+                        <div class="bath-room">
+                            <h6>Bathroom</h6>
+                            <select name="" id="" class="form-control form-control-md text-white"> 
+                                <option value="" class="bg-dark">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                            </select>
+                        </div>
+                        <div class="search-filter">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        
+
+
+            <section class="popular-property mt-md-5" id="my-property">
+                <h5>Popular Properties</h5>
+                <div class="container mt-5">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-6 col-md-4 mt-5">
+                            <div class="ad-img-1">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x1.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Sale</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>From $20k</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 mt-5">
+                            <div class="ad-img-2">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x2.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Rent</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>$563/month</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>    
+                            <hr class="w-75 mx-auto">
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 mt-5">
+                            <div class="ad-img-1">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x3.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Sale</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>From $20k</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 mt-5">
+                            <div class="ad-img-2">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x4.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Rent</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>$563/month</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 mt-5">
+                            <div class="ad-img-1">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x5.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Sale</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>From $20k</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly"> 
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 mt-5 ad-main">
+                            <div class="ad-img-1">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/property/x6.png.pagespeed.ic.yKhmCxbLib.webp" alt="" class="w-100">
+                                <a href="#">For Sale</a>
+                            </div>
+                            <div class="comfort-div">
+                                <h6>Comfortable Apartment in Palace</h6>
+                                <span><i class="fas fa-map-marker-alt"></i>  Popular Properties</span>
+                                <button class="from-20k d-block">
+                                    <span>From $20k</span>
+                                </button>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                            <div class="prop-sqft d-flex justify-content-evenly">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <hr class="w-75 mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <div class="more-prop">
+                    <a href="#" class="">More Properties</a>
+                </div>
+            </section>
+
+
+            <section class="container-fluid sales mt-5">
+                <div class="container owl-carousel blue-slider">
+                    <div class="item hevan">
+                        <div class="blue">
+                            <button>
+                                <a href="#">For sale</a>
+                            </button>
+                            <h5>Blue hevan modern home</h5>
+                            <h6><i class="fas fa-map-marker-alt"></i>  Popular Properties</h6>
+                            <hr>
+                            <div class="blue-feat d-flex align-items-center">
+                                <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                                <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                                <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                            </div>
+                            <p>Esteem spirit temper too say adieus who direct esteem. It estee luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
+                            <div class="blue-price d-flex justify-content-between align-items-center">
+                                <h4>$4567</h4>
+                                <a href="#">View-Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item blue">
+                        <button>
+                            <a href="#">For sale</a>
+                        </button>
+                        <h5>Blue hevan modern home</h5>
+                        <h6><i class="fas fa-map-marker-alt"></i>  Popular Properties</h6>
+                        <hr>
+                        <div class="blue-feat d-flex align-items-center">
+                            <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                            <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                            <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                        </div>
+                        <p>Esteem spirit temper too say adieus who direct esteem. It estee luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
+                        <div class="blue-price d-flex justify-content-between align-items-center">
+                            <h4>$4567</h4>
+                            <a href="#">View-Details</a>
+                        </div>
+                    </div>
+                    <div class="item blue">
+                        <button>
+                            <a href="#">For sale</a>
+                        </button>
+                        <h5>Blue hevan modern home</h5>
+                        <h6><i class="fas fa-map-marker-alt"></i>  Popular Properties</h6>
+                        <hr>
+                        <div class="blue-feat d-flex align-items-center">
+                            <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                            <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                            <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                        </div>
+                        <p>Esteem spirit temper too say adieus who direct esteem. It estee luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
+                        <div class="blue-price d-flex justify-content-between align-items-center">
+                            <h4>$4567</h4>
+                            <a href="#">View-Details</a>
+                        </div>
+                    </div>
+                    <div class="item blue">
+                        <button>
+                            <a href="#">For sale</a>
+                        </button>
+                        <h5>Blue hevan modern home</h5>
+                        <h6><i class="fas fa-map-marker-alt"></i>  Popular Properties</h6>
+                        <hr>
+                        <div class="blue-feat d-flex align-items-center">
+                            <h6><i class="fas fa-th"></i> 1200 sqft</h6>
+                            <h6><i class="fas fa-bed"></i> 2 Beds</h6>
+                            <h6><i class="fas fa-bath"></i> 2 Bath</h6>
+                        </div>
+                        <p>Esteem spirit temper too say adieus who direct esteem. It estee luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
+                        <div class="blue-price d-flex justify-content-between align-items-center">
+                            <h4>$4567</h4>
+                            <a href="#">View-Details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container freq-ask">
+                <div class="row">
+                    <div class="col-12 col-sm-6 freq-ask-text">
+                        <h3>Frequently ask</h3>
+                        <div class="accordion" id="main">
+                            <div class="accordion-item coll-design">
+                                <h4 class="accordion-header">
+                                <button type="button" class="accordion-button coll-design" data-bs-toggle="collapse" data-bs-target="#ac-1">Adieus who direct esteem</button>
+                                </h4>
+                                <div id="ac-1" class="accordion-collapse collapse show" data-bs-parent="#main">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores cum tempore vitae at hic, sunt accusantium natus. Quam sed cupiditate alias ut fugiat? Perferendis, est omnis. Nam, libero. Laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item coll-design">
+                                <h4 class="accordion-header">
+                                <button type="button" class="accordion-button coll-design" data-bs-toggle="collapse" data-bs-target="#ac-2">Who direct esteem It esteems?
+                                    </button></h4>
+                                <div id="ac-2" class="accordion-collapse collapse" data-bs-parent="#main">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores cum tempore vitae at hic, sunt accusantium natus. Quam sed cupiditate alias ut fugiat? Perferendis, est omnis. Nam, libero. Laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item coll-design">
+                                <h4 class="accordion-header">
+                                <button type="button" class="accordion-button coll-design" data-bs-toggle="collapse" data-bs-target="#ac-3">Duis consectetur feugiat auctor?
+                                    </button></h4>
+                                <div id="ac-3" class="accordion-collapse collapse" data-bs-parent="#main">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores cum tempore vitae at hic, sunt accusantium natus. Quam sed cupiditate alias ut fugiat? Perferendis, est omnis. Nam, libero. Laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                    <div class="freq-img col-12 col-sm-6 text-center mt-5">
+                        <img src="https://preview.colorlib.com/theme/realestate2/img/banner/xaccordion.png.pagespeed.ic.dV-V5i_7e6.webp" alt="" class="w-75">
+                    </div>
+                </div>
+            </section>
+
+            <section class="container text-center mt-5">
+                <div class="row">
+                    <div class="count col-12 col-sm-4">
+                        <h4 class="count-up d-inline-block">200</h4><span> +</span>
+                        <p>Properties for sale</p>
+                    </div>
+                    <div class="count col-12 col-sm-4">
+                        <h4 class="count-up">300</h4>
+                        <p>Properties for Rent</p>
+                    </div>
+                    <div class="count col-12 col-sm-4">
+                        <h4 class="count-up">15</h4>
+                        <p>Luxuries properties</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- owl -->
+            <section class="donec-slider container-fluid text-center mt-5" id="my-blog">
+                <div class="d-flex justify-content-evenly align-items-center">
+                    <div class="left">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="owl-carousel robert-slider container text-center">
+                        <div class="item w-50 mx-auto donec-img">
+                            <img src="https://preview.colorlib.com/theme/realestate2/img/svg_icon/quote.svg" alt="" class="don mb-5">
+                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. 
+                                Fusce ac mattis nulla. Morbi eget ornare dui. 
+                            </p>
+                            <h5>Robert Thomson</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                        <div class="item w-50 mx-auto donec-img">
+                            <img src="https://preview.colorlib.com/theme/realestate2/img/svg_icon/quote.svg" alt="" class="don mb-5">
+                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. 
+                                Fusce ac mattis nulla. Morbi eget ornare dui. 
+                            </p>
+                            <h5>Robert Thomson</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                        <div class="item w-50 mx-auto donec-img">
+                            <img src="https://preview.colorlib.com/theme/realestate2/img/svg_icon/quote.svg" alt="" class="don mb-5">
+
+                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. 
+                                Fusce ac mattis nulla. Morbi eget ornare dui. 
+                            </p>
+                            <h5>Robert Thomson</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="container-fluid agents text-center mb-5">
+                <h4>Our Agents</h4>
+                <div class="container">
+                    <div class="row">
+                        <figure class="abc col-12 col-sm-6 col-md-3 px-4">
+                            <div class="agent-icon">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/team/x1.png.pagespeed.ic.yBCXKxSsN0.webp" alt="" class="w-100">
+                                <div class="w-100 text-center justify-content-evenly align-items-center text">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>  
+                                </div>
+                            </div>
+                            <figcaption class="agent-names">
+                                <h5>Milani Mou</h5>
+                                <h6>Business Agent</h6>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-12 col-sm-6 col-md-3 overflow-hidden px-4">
+                            <div class="agent-icon">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/team/x2.png.pagespeed.ic.yBCXKxSsN0.webp" alt="" class="w-100">
+                                <div class="w-100 text-center justify-content-evenly align-items-center text">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>  
+                                </div>
+                            </div>
+                            <figcaption class="agent-names">
+                                <h5>Halim Yoka</h5>
+                                <h6>Business Agent</h6>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-12 col-sm-6 col-md-3 overflow-hidden px-4">
+                            <div class="agent-icon">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/team/x3.png.pagespeed.ic.yBCXKxSsN0.webp" alt="" class="w-100">
+                                <div class="w-100 text-center justify-content-evenly align-items-center text">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>  
+                                </div>
+                            </div>
+                            <figcaption class="agent-names">
+                                <h5>Dalim Karma</h5>
+                                <h6>Business Agent</h6>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-12 col-sm-6 col-md-3 overflow-hidden px-4">
+                            <div class="agent-icon">
+                                <img src="https://preview.colorlib.com/theme/realestate2/img/team/x4.png.pagespeed.ic.yBCXKxSsN0.webp" alt="" class="w-100">
+                                <div class="w-100 text-center justify-content-evenly align-items-center text">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>  
+                                </div>
+                            </div>
+                            <figcaption class="agent-names">
+                                <h5>Micky</h5>
+                                <h6>Business Agent</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="container-fluid buy-your" id="my-add-property">
+                <div class="row your-prop-1">
+                    <h4 class="col-12 col-sm-7">Add Your Property for sale</h4>
+                    <div class="col-12 col-sm-5 d-flex align-items-center your-prop-2">
+                        <h6 class="pe-5">+10 637 367 4567</h6>
+                        <a href="#" class="btn">Add Property</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="container-fluid" id="my-contact">
+                <div class="container">
+                    <div class="row px-5">
+                        <div class="foot-add col-12 col-sm-6 col-lg-3 mt-5">
+                            <img src="https://preview.colorlib.com/theme/realestate2/img/xfooter_logo.png.pagespeed.ic.Zh0k8UvArY.png" alt="">
+                            <p class="mt-5">conbusi@support.com</p>
+                            <p>+10 873 672 6782</p>
+                            <p>600/D, Green road, NewYork</p>
+                            <div class="mt-5 d-sm-flex justify-content-evenly">
+                                <div class="foot-icon"><i class="fab fa-facebook-f"></i></div>
+                                <div class="foot-icon"><i class="fab fa-twitter"></i></div>
+                                <div class="foot-icon"><i class="fab fa-instagram"></i></div>
+                            </div>
+                        </div>
+                        <div class="services col-12 col-sm-6 col-lg-3 mt-5">
+                            <h6>Services</h6>
+                            <ul>
+                                <li><a href="#">Marketing And SEO</a></li>
+                                <li><a href="#">Startup</a></li>
+                                <li><a href="#">Finance And solution</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Travel</a></li>
+                            </ul>
+                        </div>
+                        <div class="use-link col-12 col-sm-6 col-lg-3 mt-5">
+                            <h6>Useful Links</h6>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Appointment</a></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe col-12 col-sm-6 col-lg-3 mt-5">
+                            <h6>Subsribe</h6>
+                            <div class="input-group sub-foot">
+                                <input type="email" placeholder="Enter Your Email" class="form-control">
+                                <span class="input-group-text">Subscribe</span>
+                             </div>
+                            <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mx-auto w-75 mt-5">
+                <p class="copy">Copyright &copy; 2020-21 All rights reserved | This template by <span class="shubham">ShubhamSingh &sect; </span></p>
+
+            </footer>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- for counter -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+         <script>
+            $('.count-up').counterUp({
+                delay:10,
+                time:1500
+            });
+        </script>
+        <!--counter end -->
+        <!-- owl2 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $(document).ready(function(){
+                $('.robert-slider').owlCarousel({
+                    loop:true,
+                    autoplay:true,
+                    margin:10,
+                    responsive:{
+                        0:{
+                            items:1                
+                        },
+                        768:{
+                            items:1
+                        },
+                        993:{
+                            items:1
+                        },
+                        1200:{
+                            items:1
+                        }
+                    }
+                });
+            });
+            $(document).ready(function(){
+                $('.blue-slider').owlCarousel({
+                    loop:true,
+                    autoplay:true,
+                    margin:10,
+                    responsive:{
+                        0:{
+                            items:1                
+                        },
+                        768:{
+                            items:1
+                        },
+                        993:{
+                            items:1
+                        },
+                        1200:{
+                            items:1
+                        }
+                    }
+                });
+            });
+        </script>
+        <!-- owl2 -->
+        <script src="" async defer></script>
+    </body>
+</html>
